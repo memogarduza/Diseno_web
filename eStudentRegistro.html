@@ -16,7 +16,7 @@
 <body>
     <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="./index.html">
                         <img src="./Imagenes/Green Connection Icon Internet Logo (2).jpg" alt="Logo eTeachingSchool"
                             style="width: 100px">
                     </a>
@@ -40,17 +40,12 @@
             <br></br>
             <br></br>
             <br></br>
-        <!--     
-            <div class="py-5 text-center" style="background-color: black">
-                    <div class="caja1"></div>
-                    <h3 class="fans"> <b> Club de Fans</b></h3>
-                    <p class="descripcion"> Inscribete ahora y se parte del club de fans </p>
-                </div>
-     -->
     
      <p class=font-weight-bold>Recibe clases y asesorías con profesores capacitados de tu elección en dónde tú quieras y cuando tú quieras.</p>
-              
-        <div class="form-row fans">
+     
+     <br></br>            
+     
+     <div class="form-row fans">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Correo Electronico:</label>
                         <input type="email" class="form-control" id="inputEmail4" placeholder="Correo Electronico">
@@ -71,7 +66,7 @@
                     </div>
 
                     <div class="form-group fans">
-                            <label for="inputAddress">Nivel Maximo de Estudios:</label>
+                            <label for="inputAddress">Nivel máximo de estudios:</label>
                             <input type="text" class="form-control" id="inputAddress" placeholder="Licenciatura, Maestria">
                         </div>
                     
@@ -92,32 +87,70 @@
                                 </div>
 
                 <div class="form-group fans">
-                    <label for="inputAddress2">Direccion:</label>
+                    <label for="inputAddress2">Dirección:</label>
                     <input type="text" class="form-control" id="inputAddress2" placeholder="Calle Numero Colonia">
                 </div>
                 <div class="form-row fans">
                     <div class="form-group col-md-6">
                         <label for="inputCity">Ciudad:</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <select id="inputState" class="form-control">
+                                <option selected>Selecciona ciudad...</option>
+                                <option>CDMX</option>
+                                <option>EDOMEX</option>
+                        </select>
                     </div>
                     <div class="form-group col-md-4 fans">
-                        <label for="inputState">Estado</label>
+                        <label for="inputState">Zona de preferencia:</label>
                         <select id="inputState" class="form-control">
-                            <option selected>Elige...</option>
-                            <option>Veracruz</option>
-                            <option>Tabasco</option>
-                            <option>Yucatan</option>
-                            <option>Puebla</option>
+                                <option selected>Selecciona tu alcaldía o municipio...</option>
+                                <option>Álvaro Obregón</option>
+                                <option>Azcapotzalco</option>
+                                <option>Benito Juárez</option>
+                                <option>Coyoacán</option>
+                                <option>Cuajimalpa de Morelos</option>
+                                <option>Cuauhtémoc</option>
+                                <option>Gustavo A. Madero</option>
+                                <option>Iztacalco</option>
+                                <option>Iztapalapa</option>
+                                <option>Magdalena Contreras</option>
+                                <option>Miguel Hidalgo</option>
+                                <option>Milpa Alta</option>
+                                <option>Tláhuac</option>
+                                <option>Tlalpan</option>
+                                <option>Venustiano Carranza</option>
+                                <option>Xochimilco</option>
+                                <option>Atizapán</option>
+                                <option>Atizapán de Zaragoza</option>
+                                <option>Coacalco de Barriozábal</option>
+                                <option>Cuautitlán</option>
+                                <option>Chalco</option>
+                                <option>Chiconcuac</option>
+                                <option>Chimalhuacán</option>
+                                <option>Ecatepec de Morelos</option>
+                                <option>Huixquilucan</option>
+                                <option>Ixtapaluca</option>
+                                <option>Lerma</option>
+                                <option>Metepec</option>
+                                <option>Naucalpan de Juárez</option>
+                                <option>Nezahualcoyotl</option>
+                                <option>Tecámac</option>
+                                <option>Texcoco</option>
+                                <option>Tlalnepantla de Baz</option>
+                                <option>Toluca</option>
+                                <option>Tultepec</option>
+                                <option>Tultitlán</option>
+                                <option>Zumpango</option>
+                                <option>Cuautitlán Izcalli</option>
                         </select>
                     </div>
                     <div class="form-group col-md-2 fans">
-                        <label for="inputZip">Codigo Postal:</label>
+                        <label for="inputZip">Código Postal:</label>
                         <input type="text" class="form-control" id="inputZip">
                     </div>
                 </div>
               
                 </div>
-                <button type="submit" class="btn btn-primary">Registrate</button>
+                <button type="submit" class="btn btn-primary">Regístrate</button>
             </form>
 
     </main>
